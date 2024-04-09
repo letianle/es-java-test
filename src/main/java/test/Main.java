@@ -6,13 +6,8 @@ import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
-import co.elastic.clients.elasticsearch.core.ExistsRequest;
-import co.elastic.clients.elasticsearch.core.GetRequest;
 import co.elastic.clients.elasticsearch.core.GetResponse;
 import co.elastic.clients.elasticsearch.core.IndexResponse;
-import co.elastic.clients.elasticsearch.indices.ElasticsearchIndicesClient;
-import co.elastic.clients.elasticsearch.indices.GetIndexRequest;
-import co.elastic.clients.elasticsearch.indices.GetIndexRequest.Builder;
 import co.elastic.clients.json.jackson.JacksonJsonpMapper;
 import co.elastic.clients.transport.ElasticsearchTransport;
 import co.elastic.clients.transport.endpoints.BooleanResponse;
